@@ -8,7 +8,7 @@ NeuralNetwork::~NeuralNetwork()
 {
 	for ( auto layer : layers)
 	{
-		delete layer;
+		// delete layer;
 	}
 }
 
